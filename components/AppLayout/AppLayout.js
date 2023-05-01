@@ -19,7 +19,7 @@ export const AppLayout = ({
   const { setPostsFromSSR, posts, getPosts, noMorePosts } = useContext(PostsContext);
 
   useEffect(() => {
-    // setPostsFromSSR(postsFromSSR);
+    setPostsFromSSR(postsFromSSR);
     if (postId) {
       const exists = postsFromSSR.find((post) => post._id === postId);
       if (!exists) {
@@ -41,7 +41,7 @@ export const AppLayout = ({
             <span className="pl-1">{availableTokens} tokens available</span>
           </Link>
         </div>
-        <div className="px-4 flex-1 overflow-auto bg-gradient-to-b from-slate-800 to-cyan-800">
+        <div className="px-4 flex-1 overflow-auto bg-gradient-to-b from-slate-800 to-teal-800">
           {posts?.map((post) => (
             <Link
               key={post._id}
@@ -64,7 +64,7 @@ export const AppLayout = ({
             </div>
           )}
         </div>
-        <div className="bg-cyan-800 flex items-center gap-2 border-t border-t-black/50 h-20 px-2">
+        <div className="bg-teal-800 flex items-center gap-2 border-t border-t-black/50 h-20 px-2">
           {!!user ? (
             <>
               <div className="min-w-[50px]">
