@@ -14,7 +14,7 @@ export default function Home() {
           The AI-powered SAAS solution to generate SEO-optimized blog posts in
           minutes. Get high-quality content, without sacrificing your time.
         </p>
-        <Link href="/post/new" className="btn text-left">
+        <Link href="/post/new" className="btn text-center">
           Begin
         </Link>
       </div>
