@@ -24,14 +24,21 @@ export default function NewPost(props) {
         body: JSON.stringify({ topic, keywords }),
       });
       const json = await response.json();
-      console.log('RESULT: ', json);
-      if (json?.postId) {
-        router.push(`/post/${json.postId}`);
+      if (response.ok) {
+        // console.log('RESULT: ', json);
+        if (json?.postId) {
+          router.push(`/post/${json.postId}`);
+        }
+      } else {
+        console.error('Server error:', json);
       }
     } catch (e) {
+      console.error('Network error:', e);
+    } finally {
       setGenerating(false);
     }
   };
+
 
   return (
     <div className="h-full overflow-hidden">

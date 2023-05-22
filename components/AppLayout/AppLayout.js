@@ -9,7 +9,7 @@ import { Logo } from '../Logo';
 
 export const AppLayout = ({
   children,
-  availableTokens = 0,
+  availableTokens,
   posts: postsFromSSR,
   postId,
   postCreated,
