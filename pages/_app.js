@@ -4,6 +4,7 @@ import { DM_Sans, DM_Serif_Display } from '@next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { PostsProvider } from '../context/postsContext';
+// Prevent fontawesome from adding its CSS since we did it manually above:
 config.autoAddCss = false;
 
 const dmSans = DM_Sans({
