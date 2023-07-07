@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+A fictional Software-As-A-Service (SAAS) product called "BlogBrain".
+
+BlogBrain is a platform that allows users to create and generate blog posts using OpenAI's GPT API. It is built on a combination of Next.js, MongoDB, Auth0, Stripe, and Tailwind CSS.
+
+Users can create an account with Auth0 and purchase tokens with Stripe. These tokens can then be used to generate blog posts. The generated blog posts and the user's tokens are stored in MongoDB.
+
+Here is a more detailed breakdown of the technologies used in BlogBrain:
+
+- Next.js: A React framework that is used to build dynamic web pages.
+- OpenAI's GPT: A large language model that can be used to generate text, translate languages, write different kinds of creative content, and answer your questions in an informative way.
+- MongoDB: A document-oriented database that is used to store user data, such as tokens and generated blog posts.
+- Auth0: An identity and access management platform that is used to authenticate and authorize users.
+- Stripe: A payment processing platform that is used to handle payments for tokens.
+- Tailwind CSS: A utility-first CSS framework that is used to style the BlogBrain platform.
 
 ## Getting Started
 
