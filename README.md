@@ -12,11 +12,24 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## todo
+- add test
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Screenshots
+<img width="1440" alt="Screenshot 2023-07-07 at 5 13 30 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/a7a3f935-3bbc-47e5-9f1d-6063099bad0b">
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img width="1440" alt="Screenshot 2023-07-07 at 5 13 42 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/deb4f2e9-ffb7-4740-9c2a-10194c6337b0">
+
+<img width="1440" alt="Screenshot 2023-07-07 at 5 13 57 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/72e139df-f475-43c1-8fe9-6ded4eb5d750">
+
+<img width="1440" alt="Screenshot 2023-07-07 at 5 15 22 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/2ea108ea-06db-4ceb-aa09-d3f36ede2a33">
+
+<img width="1440" alt="Screenshot 2023-07-07 at 5 15 33 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/1d3e79ca-398f-432f-89c5-4dc812e934e8">
+
+<img width="1440" alt="Screenshot 2023-07-07 at 5 15 53 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/52b42fc7-dddb-41b2-b324-c5dff589b052">
+
+<img width="1440" alt="Screenshot 2023-07-07 at 5 16 20 PM" src="https://github.com/christine-aqui/blog-post-generator/assets/2739361/92028477-6b43-4353-a775-c4e6a68b8e1f">
+
 
 ## Learn More
 
